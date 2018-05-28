@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>formulaire JSTL</title>
+
+
+</head>
+<body>
+	<div>
+
+		<h2>
+			<p>Club Ogjis : veuillez vous identifier</p>
+		</h2>
+
+	</div>
+
+
+	<form method="POST" action="ServletJSTL">
+		<div class="form-group">
+			<label for="Nom">Nom</label> <input type="nom" class="form-control"
+				id="1" placeholder="BATAULT" name="champNom">
+		</div>
+		<div class="form-group">
+			<label for="Prenom">Prenom</label> <input type="prenom"
+				class="form-control" id="2" placeholder="Frédéric"
+				name="champPrenom">
+		</div>
+		<div class="form-group">
+			<label for="Mail">Email</label> <input type="mail"
+				class="form-control" id="3" placeholder="exemple@objis.com"
+				name="champMail"> <small id="mailHelp"
+				class="form-text text-muted">Adresse mail valide</small>
+		</div>
+		<div class="form-group">
+			<label for="Login">Login</label> <input type="login"
+				class="form-control" id="4" placeholder="fred" name="champLogin">
+		</div>
+		<div class="form-group">
+			<label for="MdP">Login</label> <input type="mdp" class="form-control"
+				id="5" placeholder="*****" name="champMdp">
+		</div>
+		<div>
+			<button type="submit" class="btn btn-block ">Valider</button>
+		</div>
+	</form>
+
+
+
+
+
+
+</body>
+</html>
